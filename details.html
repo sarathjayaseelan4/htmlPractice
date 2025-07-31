@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="boy.png">
+        <title >details</title>
+    </head>
+    <body>
+        <p id="whoIsThis">iam iron man</p>
+        <h1>Your Details</h1>
+        <form>
+            <label>username:</label>
+            <input type="text" minlength="6" maxlength="6">
+            <br>
+            <label>password</label>
+            <input type="password" minlength="8" maxlengthh="12">
+            <br>
+            <label>email:</label>
+            <input type="email">
+            <br>
+            <a href="index.html">
+            <input type="submit">
+            </a>
+            <button onclick="changeName()" type="button">
+                youtube
+            </button>
+            <br>
+        </form>
+        <script>
+            function changeName(){
+                document.getElementById("whoIsThis").innerHTML='spiderman';
+
+            }
+        </script>
+    </body>
+</html>
